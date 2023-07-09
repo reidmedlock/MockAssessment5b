@@ -1,0 +1,15 @@
+﻿@model MockAssessment5b.Models.Person
+
+<h2>GetAge</h2>
+
+<form asp-controller="Home" asp-action="Result" method="post">
+    <div>
+        <label asp-for="Age">Age:</label>
+        <input asp-for="Age" type="number" required>
+    </div>
+    <div>
+        <label asp-for="UserName">User Name:</label>
+        <input asp-for="UserName" type="text" required>
+    </div>
+    <button type="submit">Submit</button>
+</form>
